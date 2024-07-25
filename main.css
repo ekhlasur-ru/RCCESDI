@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*! ========== Start Root Element ========== */
+:root{
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    color: black;
+    font-family: "Montserrat", arial;
+    /* color: white; */
+    scroll-behavior: smooth;
+    background-color: #E7FFE3;
+    
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+section {
+    scroll-margin-top: 50px;
+}
+/* ========== End Root Element ========== */
+
+/*! ========== Start Header Section ========== */
+header {
+    background: #fff;
+    box-shadow: 0px 15px 10px -15px #111;   
+    /* For Position Fixed  */
+    position: sticky;
+    top: 0;
+  }
+.navlogo{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+}
+.navLinks{
+    display: inline-block;
+    padding-left: 400px;
+    justify-content: space-between;
+    float: right;
+    /* float: right; */
+
+}
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navLinks li a{
+    transition: .04s ease;
+}
+.navLinks li a:hover{
+    color: #FDF00C;
+}
+
+button{
+    padding: 9px 25px;
+    /* outline: none; */
+    border: none;
+    border-radius: 50px;
+    background-color: #FDF00C;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+button:hover{
+    padding: 12px 27px;
+    color:#ffffff;
+}
+/* ========== End Header Section ========== */
+
+
+
+
+
+/*! ========== Start Footer Section ========== */
+footer .footerTop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #A7F19B;
+    align-items: center;
+    padding: 20px 5%;
+}
+.rccesdi{
+    width: 25%;
+    text-align: center;
+}
+.information{
+    padding-left: 100px;
+    width: 25%;
+}
+.helpLink{
+    width: 25%;
+}
+.contactInfo{
+    width: 25%;
+}
+footer .rights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+}
+/* ========== End Footer Section ========== */
